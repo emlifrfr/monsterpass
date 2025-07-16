@@ -27,8 +27,10 @@ fetch(
             <div class="display">
                 <h4>Next Goal:</h3><br>
                 <h2>${next} gifted Monsters</h2><br>
-
+                    <div class="barDiv">
                     <label id="label1" for="bar">0</label><progress id="bar" value="${barProg}" max="${barLen}"></progress><label id="label2" for="bar">3</label>
+                    </div>
+                    <br>
                 
             <a href="donate"><h1>DONATE :3</h1></a>
             
