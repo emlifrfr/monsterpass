@@ -22,9 +22,10 @@ fetch(
             <div class="header-row">
                 <h1>EmliMonsertPass</h1>
                 <br>
-                <h2>Donations: ${count}</h2>
+                
             </div>
             <div class="display">
+            <h2>Donations: ${count}</h2><br>
                 <h4>Next Goal:</h3><br>
                 <h2>${next} gifted Monsters</h2><br>
                     <div class="barDiv">
