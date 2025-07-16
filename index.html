@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASS</title>
+
+    <link rel="stylesheet" href="globalstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <style>
+        .display{
+            text-align: center;
+        }
+        progress{
+            border-radius: 10em;
+            background: var(--color1);
+            border: 0;
+            width: 50%;
+        }
+        progress[value]::-moz-progress-bar {
+            border-radius: 10em;
+            background: var(--color2);
+        }
+        progress[value]::-webkit-progress-bar {
+            border-radius: 10em;
+            background: var(--background);
+        }
+        label{
+            margin: 0 5px;
+        }
+        .header-row h2{
+            margin-left: 1em;
+        }
+        .display h2 {
+            margin-bottom: 2em;
+            margin-top: 0.2em;
+        }
+    </style>
+        
+    <script src="loadData.js"></script>
+</head>
+<body>
+    <div class="header-row">
+        <h1>EmliMonsertPass</h1>
+        <br>
+        <h2>LOADING...</h2>
+    </div>
+    
+</body>
+</html>

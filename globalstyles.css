@@ -1,0 +1,36 @@
+body{
+    background-color: #000;
+    background-image: url("bg2.svg");
+    background-size: auto 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  --color1:#CC66DA;
+  --color2: #9929EA; 
+  --color3: #FAEB92;
+}
+h1{
+    background-color: var(--color1);
+    display: inline-block;
+    padding: 0 1em;
+}
+h2{
+    background-color: var(--color2);
+    display: inline-block;
+    padding: 0 1em;
+}
+h3, h4{
+
+    background: black;
+    padding: 4px;
+    display: inline-block;
+    margin: 0;
+}
+a h1 {
+  margin-top: 2em;
+  color: var(--color3);
+}
+
+
