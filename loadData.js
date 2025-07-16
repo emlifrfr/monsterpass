@@ -20,7 +20,7 @@ fetch(
             document.body.innerHTML = `
             
             <div class="header-row">
-                <h1>EmliMonsertPass</h1>
+                <h1>Emli&Lucy GbR</h1>
                 <br>
                 
             </div>
@@ -33,7 +33,9 @@ fetch(
                     </div>
                     <br>
                 
-            <a href="donate"><h1>DONATE :3</h1></a>
+           
+            <a href="whatsapp://send?text=*Coupon für 1 Monster <3*" data-action="share/whatsapp/share"><h1>DONATE :3</h1></a>
+
             
                 
             </div>
