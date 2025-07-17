@@ -13,6 +13,14 @@
         .display{
             text-align: center;
         }
+
+        progress[value]::-webkit-progress-value::before, progress[value]::-moz-progress-bar::before  {
+        content: '80%';
+        position: absolute;
+        right: 0;
+        }
+        
+
         progress[value]{
 
             -webkit-appearance: none;
@@ -21,7 +29,7 @@
 
             border-radius: 10em;
             background: var(--color2);
-            border: 0;
+            border: var(--color2) 2px solid;
             width: 50%;
         }
         progress[value]::-moz-progress-bar {
@@ -54,7 +62,7 @@
         }
         .barDiv{
             background-color: black;
-            padding: 1em;
+            padding: 5px;
             display: inline;
         }
     </style>
