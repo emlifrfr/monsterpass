@@ -24,7 +24,7 @@ fetch(
             document.body.innerHTML = `
             
             <div class="header-row">
-                <h1>☭ Lucy&Emli GbR</h1>
+                <h1>☭ Lucy & Emli GbR</h1>
                 <br>
                 
             </div>
